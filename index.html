@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GIFMAP</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+
+		
+  <h1>GIFMAP</h1>
+         
+            
+              
+                
+        <div class="search-contain">
+          
+              <form id="form-box" >      
+                
+                <img src="img/search.svg" alt="search button" id="search-btn">
+                <input class="search btnSearch" type="text" id="search" placeholder="" required>
+                <p id="tip"> Hit Enter to search</p>
+                <button id="btnSearch">Go</button>
+               
+              </form>  
+       </div> 
+
+       <div class="out">
+         
+       </div>
+	
+	
+
+	
+
+
+
+
+
+
+
+    
+<script>
+    const searchBtn = document.getElementById('search-btn'); 
+    const search = document.getElementById('search'); 
+    const tip = document.getElementById('tip'); 
+    
+    var i = 0;
+    var message = 'Explore the MAP';
+    var speed = 100;
+
+    searchBtn.addEventListener('click', ()  => {
+        search.style.width = '80%'; 
+        search.style.paddingLeft = '60px';
+        search.style.cursor = 'text';
+        search.focus(); 
+        typeWriter();
+    })
+      
+
+
+
+        search.addEventListener('keydown', () => {
+            tip.style.visibility = 'visible';
+            tip.style.opacity = '1';
+
+        })
+
+
+
+</script>
+
+
+    
+</body>
+</html>
