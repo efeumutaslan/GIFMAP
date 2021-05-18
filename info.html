@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GIFMAP</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <h1>Online Features</h1>
+    <h2>+Gif Search Engine optimized via Giphy API</h2>
+    <h2></h2>
+	<div class="container">
+			
+       
+	</div>
+	
+	
+<div class="info-box">
+	
+	<a href="index.html"> <img src="img/info-btn.svg" alt="info button" id="info-btn"></a>
+</div>
+	
+
+
+
+
+
+
+
+
+    
+<script>
+    const searchBtn = document.getElementById('search-btn'); 
+    const search = document.getElementById('search'); 
+    const tip = document.getElementById('tip'); 
+   
+    
+    var i = 0;
+    var message = 'Explore the MAP';
+    var speed = 100;
+
+    searchBtn.addEventListener('click', ()  => {
+        search.style.width = '80%'; 
+        search.style.paddingLeft = '60px';
+        search.style.cursor = 'text';
+        search.focus(); 
+
+        typeWriter();
+    })
+      
+
+        function typeWriter() {
+            if(i < message.length) {
+               msg = search.getAttribute('placeholder') + message.charAt(i);
+                search.setAttribute('placeholder' , msg);
+                i++;
+                setTimeout(typeWriter, speed);
+            }
+
+        }
+
+        search.addEventListener('keydown', () => {
+            tip.style.visibility = 'visible';
+            tip.style.opacity = '1';
+
+        })
+
+        
+
+
+
+</script>
+
+ 
+    
+</body>
+</html>
