@@ -48,5 +48,8 @@ Our color scheme <br>
 ![Coloring](https://user-images.githubusercontent.com/84371233/118700302-305d9800-b81b-11eb-94df-d13dcf422b7b.png)
 
 
+Final Version of UI
+![23](https://user-images.githubusercontent.com/84371233/119248319-08629180-bb99-11eb-9a44-423ae548bcf4.JPG)
+![52](https://user-images.githubusercontent.com/84371233/119248326-16181700-bb99-11eb-8115-315e72778fac.JPG)
 
 
