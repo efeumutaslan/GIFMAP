@@ -52,4 +52,13 @@ Final Version of UI
 ![23](https://user-images.githubusercontent.com/84371233/119248319-08629180-bb99-11eb-9a44-423ae548bcf4.JPG)
 ![52](https://user-images.githubusercontent.com/84371233/119248326-16181700-bb99-11eb-8115-315e72778fac.JPG)
 
+References
+Gfycat | Find, Make & Share Gfycat GIFs. [online] Available at: https://gfycat.com/
+GIPHY | Search All the GIFs & Make Your Own Animated GIF. [online] Available at: https://giphy.com/
+Imgflip - Create and Share Awesome Images. [online] Available at: https://imgflip.com/
+Imgur. [online] Available at: https://imgur.com
+Reaction GIFs - Say it with a GIF!. [online] Available at: http://www.reactiongifs.com/
+reddit. [online] Available at: https://www.reddit.com/
+Sign up | Tumblr. [online] Available at: https://www.tumblr.com/
+Tenor GIF Keyboard - Bring Personality To Your Conversations. [online] Available at: https://tenor.com/
 
